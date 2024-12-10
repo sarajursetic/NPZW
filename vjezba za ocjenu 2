@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+
+        body
+        {
+            margin: 0%;
+            padding: 0%;
+        }
+
+
+        header
+        {
+            background-color:  #3B5249;
+            margin: 0%;
+            padding: 60px;
+            text-align: center;
+        }
+
+
+        .tekst1
+        {
+            background-color: #8FC1E3;
+            padding: 50px;
+        }
+
+
+        .slikica1
+        {
+            float: left;
+            width: 300px;
+            height: 300px;
+        }
+
+
+        ul
+        {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+        }
+
+
+        li a
+        {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 20px 20px;
+        }
+       
+        
+        li a:hover
+        {
+            color:#FFD700;
+            font-size: 35px;
+            text-decoration: underline;
+        }
+
+
+        li
+        {
+            float: left;
+        }
+
+
+        .tekst2
+        {
+            background-color: #FFC8A2;
+            padding: 50px;
+        }
+        
+
+        .slikica2
+        {
+            float: right;
+            width: 400px;
+            height: 200px;
+        }
+
+
+        .tekst3
+        {
+            background-color: #FFC8A2;
+            padding: 50px;
+        }
+
+
+        .slikica3
+        {
+            float: left;
+            width: 200px;
+            height: 400px;
+            margin: 60px;
+        }
+
+
+        footer
+        {
+            background-color: #6A7B76;
+            margin: 0%;
+            padding: 60px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main>
+        <section class="tekst1">
+            <img src="https://imgur.com/xzygast.png" alt="cuko" class="slikica1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates. In recusandae labore dolor vel neque 
+                eos alias mollitia perferendis quasi aliquam excepturi tempora atque dolorem, 
+                assumenda autem tenetur, esse optio doloremque repudiandae non harum consequuntur. 
+                Minus, tempore illum. Distinctio earum sed, ipsam aliquam veniam vero laudantium esse 
+                praesentium quas, vel quasi unde alias placeat. Laudantium, voluptatem culpa labore 
+                veritatis inventore nam atque obcaecati eligendi praesentium pariatur qui officiis 
+                vero dolore necessitatibus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates.</p>
+        </section>
+        <header>
+            <ul>
+                <li><a href="#">Naslovna</a></li>
+                <li><a href="#">Vijest</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </header>
+        <section class="tekst2">
+            <img src="https://imgur.com/xzygast.png" alt="cuko" class="slikica2">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates. In recusandae labore dolor vel neque 
+                eos alias mollitia perferendis quasi aliquam excepturi tempora atque dolorem, 
+                assumenda autem tenetur, esse optio doloremque repudiandae non harum consequuntur. 
+                Minus, tempore illum. Distinctio earum sed, ipsam aliquam veniam vero laudantium esse 
+                praesentium quas, vel quasi unde alias placeat. Laudantium, voluptatem culpa labore 
+                veritatis inventore nam atque obcaecati eligendi praesentium pariatur qui officiis 
+                vero dolore necessitatibus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates.</p>
+        </section>
+
+        <section class="tekst3">
+            <img src="https://imgur.com/xzygast.png" alt="cuko" class="slikica3">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates. In recusandae labore dolor vel neque 
+                eos alias mollitia perferendis quasi aliquam excepturi tempora atque dolorem, 
+                assumenda autem tenetur, esse optio doloremque repudiandae non harum consequuntur. 
+                Minus, tempore illum. Distinctio earum sed, ipsam aliquam veniam vero laudantium esse 
+                praesentium quas, vel quasi unde alias placeat. Laudantium, voluptatem culpa labore 
+                veritatis inventore nam atque obcaecati eligendi praesentium pariatur qui officiis 
+                vero dolore necessitatibus.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, facilis iusto. 
+                Mollitia nesciunt perspiciatis quisquam recusandae veniam accusantium dolorum rem? 
+                Vel facilis id nisi reiciendis! Quasi provident rerum pariatur nam eligendi sequi 
+                asperiores odit, totam numquam, aut voluptates. </p>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">naslovna</a></li>
+            <li><a href="#">vjest</a></li>
+            <li><a href="#">kontakt</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>display</title>
+
+    <style>
+        .navigacija
+        {
+            font-size: 20px;
+            padding: 20px;
+            margin: 0;
+            background-color: yellow;
+            text-align: center;
+        }
+
+        ul
+        {
+            list-style-type: none;
+        }
+
+        .display
+        {
+            display: inline-block;
+            text-align: center;
+            margin-left: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Linkovi s horizontalnom navigacijom</h1>
+    <p>Po zadanim postavkama, svake liste prikazuju se okomito. U ovom primjeru koristimo display: inline-block kako bismo ih prikazali vodoravno, odnosno horizontalno (jedna pored druge).
+        <br>
+        <br>
+        Napomena: ako promjenite veličinu prozora preglednika, vezat će se automatski rasporediti u novi red kada postaje previše skučeno.
+    </p>
+
+    <div>
+        <ul class="navigacija">
+            <li class="display"><a href="#">Home</a></li>
+            <li class="display"><a href="#">About us</a></li>
+            <li class="display"><a href="#">Our Clients</a></li>
+            <li class="display"><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+</body>
+</html>
