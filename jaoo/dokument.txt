@@ -1,0 +1,42 @@
+Ime: Katarina
+Prezime: Sandelić
+Razred i smjer: 3.b, web dizajn
+Discord: nema
+Iskustvo u Valorantu: ne
+
+Ime: sara
+Prezime: juršetić
+Razred i smjer: 3.b, web dizajn
+Discord: nemam
+Iskustvo u Valorantu: ne
+
+Ime: Lana
+Prezime: Trcol
+Razred i smjer: 3.b, web dizajn
+Discord: ne
+Iskustvo u Valorantu: ne
+
+Ime: Elena
+Prezime: Pirc
+Razred i smjer: 3.b, web dizajn
+Discord: nemam
+Iskustvo u Valorantu: ne
+
+Ime: Franciska
+Prezime: Bačurin
+Razred i smjer: 3.b, web
+Discord: ne
+Iskustvo u Valorantu: ne
+
+Ime: ja
+Prezime: volim
+Razred i smjer: samu
+Discord: sebe
+Iskustvo u Valorantu: ne
+
+Ime: Katarina
+Prezime: Pizdi
+Razred i smjer: web dizajn
+Discord: moja mama
+Iskustvo u Valorantu: da
+
