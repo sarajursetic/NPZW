@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D MODELIRANJE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">LOGO</div>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#">Početna</a></li>
+            <li><a href="#">Novosti</a></li>
+            <li><a href="#">Usluge</a></li>
+            <li><a href="#">O nama</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Proizvodi</a></li>
+        </ul>
+        
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <script>
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav-links');
+        const searchBar = document.querySelector('.search-bar');
+        const navLinks = document.querySelectorAll('.nav-links li');
+        
+        // Toggle navigation
+        burger.addEventListener('click', () => {
+            // Toggle nav
+            nav.classList.toggle('nav-active');
+            searchBar.classList.toggle('search-active');
+            
+            // Animate links
+            navLinks.forEach((link, index) => {
+                if (link.style.animation) {
+                    link.style.animation = '';
+                } else {
+                    link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+                }
+            });
+            
+            // Burger animation
+            burger.classList.toggle('toggle');
+        });
+    </script>
+</body>
+</html>
